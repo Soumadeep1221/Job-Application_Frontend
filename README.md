@@ -108,5 +108,3 @@ http://localhost:3000
 * Understanding React + Spring Boot integration
 * Learning full-stack architecture
 * Practicing CRUD operations with REST APIs
-
----
