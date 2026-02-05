@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Job Application Management System — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based client application for the **Job Application Management System**, built with a clean and minimal interface to demonstrate how a frontend communicates with a SpringBoot REST API.
 
-## Available Scripts
+👉 **Backend Repository:**
+[https://github.com/Soumadeep1221/Job-Application_Backend](https://github.com/Soumadeep1221/Job-Application_Backend)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This repository contains the frontend of the Job Application Management System where users can:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* View job posts
+* Create new listings
+* Update existing jobs
+* Delete job posts
+* Search jobs by:
 
-### `npm test`
+  * Job title
+  * Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The primary goal of this frontend is to clearly showcase **frontend-backend integration** rather than complex UI design.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 UI Note
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The user interface is intentionally kept **simple and minimal** so that the focus remains on understanding:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* How React interacts with REST APIs
+* How data flows between client and server
+* How CRUD operations function in a full-stack environment
 
-### `npm run eject`
+This project prioritizes functionality and architecture over advanced styling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **ReactJS** — Component-based UI
+* **JavaScript (ES6+)** — Application logic
+* **REST API Integration** — Communication with Spring Boot backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧠 Architecture
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project follows a decoupled full-stack architecture:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Frontend (React) → REST API → Spring Boot → PostgreSQL
 
-### Code Splitting
+Benefits include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Better scalability
+* Independent development
+* Easier maintenance
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📌 Project Evolution
 
-### Making a Progressive Web App
+This application is an **upgraded version** of an earlier system that used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* JSP for frontend
+* No dedicated database
 
-### Advanced Configuration
+### Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+✅ Migrated to React
+✅ Introduced PostgreSQL
+✅ Adopted a separated frontend-backend architecture
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ⚙️ Getting Started
 
-### `npm run build` fails to minify
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Node.js
+* npm or yarn
+* Backend server running
+
+👉 Start the backend first:
+[https://github.com/Soumadeep1221/Job-Application_Backend](https://github.com/Soumadeep1221/Job-Application_Backend)
+
+---
+
+### Installation
+
+```bash
+git clone https://github.com/Soumadeep1221/Job-Application_Frontend
+cd Job-Application_Frontend
+npm install
+npm start
+```
+
+Runs on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🎯 Ideal For
+
+* Understanding React + Spring Boot integration
+* Learning full-stack architecture
+* Practicing CRUD operations with REST APIs
+
+---
